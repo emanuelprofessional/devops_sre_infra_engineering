@@ -8,7 +8,7 @@
 Containerize a simple web application, set up a complete CI/CD pipeline, and deploy it to Kubernetes using Infrastructure as Code. Demonstrate automation, reliability, and modern DevOps practices.
 
 ### Tech Stack (Focus Areas)
-- **Docker** – Multi-stage builds, Compose
+- **Docker** – Multi-stage builds, Compose (if need be)
 - **GitLab CI** (or GitHub Actions) – Multi-stage pipeline
 - **Kubernetes** – kind or Minikube locally
 - **Helm** or **Kustomize**
@@ -21,7 +21,7 @@ Containerize a simple web application, set up a complete CI/CD pipeline, and dep
 
 **Days 1-2: Application & Docker**
 - Choose a simple app (recommend Python Flask or Node.js Express)
-- Create a clean `Dockerfile` (multi-stage build)
+- Create a clean `Dockerfile`
 - Add `.dockerignore`
 - Test locally: `docker build -t myapp .` and `docker run -p 8080:8080 myapp`
 - Create `docker-compose.yml` for local development
@@ -70,7 +70,7 @@ Containerize a simple web application, set up a complete CI/CD pipeline, and dep
 
 ### Resume Bullet Points You Can Use
 - Designed and implemented a complete GitOps-style CI/CD pipeline using GitLab CI, Docker, and Kubernetes, reducing deployment time by automating build, test, and release processes.
-- Containerized microservice with multi-stage Docker builds and deployed to a local Kubernetes cluster using Helm/Kustomize.
+- Containerized microservice with multi-stage (if need be) Docker builds and deployed to a local Kubernetes cluster using Helm/Kustomize.
 - Integrated infrastructure scanning and monitoring (Prometheus/Grafana) into the deployment pipeline.
 
 ---
